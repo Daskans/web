@@ -9,14 +9,21 @@
     <title>L'énergie quasi-infinie</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body onmouseout="stopRotation()">
+  <body>
     <div id="header-placeholder"></div>
     <main>
       <section class="funny">
-        <img
-          src="./resources/funny_moment.webp"
-          onmouseover="rotationCycle()"/>
+        <img class="rotate" src="./resources/funny_moment.webp" />
       </section>
+      <div class="speed-selector">
+        Vitesse de rotation
+        <input
+          type="number"
+          id="rotationSpeed"
+          value="0"
+          step="1"
+        />
+      </div>
     </main>
     <div id="footer-placeholder"></div>
     <script src="loadComponents.js"></script>
