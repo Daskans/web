@@ -22,6 +22,12 @@ header {
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
 h1 {
     display: inline-block;
 }
@@ -118,8 +124,6 @@ footer {
     background-color: #343434;
     color: rgb(193, 193, 193);
     box-sizing: border-box;
-    position: relative;
-    margin-top: auto;
     width: 100%;
     text-align: right;
 }
