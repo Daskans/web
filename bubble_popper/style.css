@@ -1,0 +1,22 @@
+body {
+    overflow: hidden;
+}
+
+.score-box {
+    position: fixed;
+    left: 50%;
+    text-align: center;
+}
+
+#score {
+    font-size: 4em;
+    opacity: 0.75;
+    text-align: center;
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+    transition: 2s;
+}
